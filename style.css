@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: bold;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.main {
+  height: 80vh;
+  width: 100vw;
+  background-image: url(assets/img/bg.jpg);
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1000px, 100vw);
+  background-position: top;
+}
+.main .box {
+  height: 80vh;
+  width: 100%;
+  opacity: 0.44;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  max-width: 78vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 103px;
+}
+nav img {
+  color: rgba(16, 189, 163, 0.648);
+  width: 151px;
+  /* height: 68px; */
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  z-index: 10;
+  position: relative;
+  width: 86px;
+  height: 34px;
+}
+.hero {
+  display: flex;
+  height: calc(100% - 103px);
+  /* background-color: red; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  width: 100%;
+  gap: 23px;
+  /* padding-top:18px; */
+}
+.hero > :first-child {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.sepration {
+  height: 6px;
+  width: 100vw;
+  background-color: #232323;
+}
+.btn {
+  padding: 3px 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 700;
+  margin: 2px 4px;
+  border-radius: 7px;
+  border: transparent;
+  border: transparent;
+  font-size: medium;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.673);
+  cursor: pointer;
+}
+.btn-si {
+  background-color: red;
+  color: white;
+}
+.btn-red {
+  color: white;
+  background-color: red;
+  height: 46px;
+  width: 139px;
+  font-size: 13px;
+  padding: 12px;
+  letter-spacing: 2px;
+  color: white;
+  background-color: red;
+}
+.hero-button {
+  display: flex;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 45px;
+  flex-wrap: wrap;
+  /* margin: 0px 0px 0px 34px; */
+}
+.hero-button input {
+  background-color: rgb(255 255 255 / 13%);
+  height: 43px;
+  width: 337px;
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, 0.589);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 12px 15px;
+  color: white;
+}
+.hero-button input ::placeholder {
+  /* color: white; */
+  text-align: center;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  height: 59vh;
+  color: white;
+  flex-wrap: wrap;
+}
+.first-text {
+  width: 360px;
+}
+.first-text > :first-child {
+  font-size: 41px;
+  font-weight: 600;
+}
+.first-text>:nth-child(2){
+  font-size: 16px;
+  font-weight: 400;
+}
+.secimg img {
+  width: 30vw;
+ margin-left: 75px;
+ position: relative;
+ z-index: 10;
+}
+.secimg{
+  position: relative;
+  
+  }
+.secimg video{
+  position: absolute;
+  top: 61px;
+  right: 54px;
+  width: 22vw;;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  height: 59vh;
+  color: white;
+  flex-wrap: wrap;
+}
+.second-text{
+  width: 380px;
+
+}
+.second-text>:nth-child(1){
+  font-size: 41px;
+  font-weight: 600;
+}
+.second-text>:nth-child(2){
+  font-size: 16px;
+  font-weight: 400;
+}
+.second-img>:nth-child(1){
+  width: 32vw;
+}
+.second-img>:nth-child(2){
+
+}
+.third-text{
+  width: 400px;
+}
+.third-img img{
+  width: 32vw;
+  position: relative;
+}
+.third-img video{
+  width: 284px;
+  position: absolute;
+  top: 37px;
+  z-index: -1;
+  right: 93px;
+}
+.third-img{
+  position: relative;
+}
+.fourth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  height: 59vh;
+  color: white;
+  flex-wrap: wrap;
+}
+.fourth-text{
+width: 479px;
+}
+.fourth-text>:nth-child(1){
+  font-size: 41px;
+  font-weight: 600;
+}
+.fourth-text>:nth-child(2){
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fourth-img img{
+width: 30vw;
+}
